@@ -1,0 +1,133 @@
+<header>
+  <h1>yosef wael games world</h1>
+  <p>Ultimate FPS & Tactical Games Hub</p>
+</header>
+<section id="games">
+  <h2>Pro gams</h2>
+  <div class="game-list">
+    
+    <div class="game">
+      <img src="images/cod1.jpg" alt="Call of Duty 1">
+      <h3>Call of Duty 1 v1.1</h3>
+      <a href="https://www.downloadcomputergames.net/p/download-game.html#https://up.downloadcomputergames.net/2021/06/call-of-duty-1/Call-of-Duty-1.zip" target="_blank">Download / Play</a>
+    </div>
+    
+    <div class="game">
+      <img src="images/totaloverdose.jpg" alt="Total Overdose">
+      <h3>Total Overdose</h3>
+      <a href="https://www.downloadcomputergames.net/p/download-game.html#https://up.downloadcomputergames.net/2021/03/total-overdose/Total-Overdose.zip" target="_blank">Download / Play</a>
+    </div>
+    
+    <div class="game">
+      <img src="images/gtavc.jpg" alt="GTA Vice City">
+      <h3>GTA Vice City</h3>
+      <a href="https://www.downloadcomputergames.net/p/download-game.html#https://up.downloadcomputergames.net/2021/02/download-gta-vice-city/GTA-Vice-City.zip" target="_blank">Download / Play</a>
+    </div>
+    
+    <div class="game">
+      <img src="images/gtasan.jpg" alt="GTA San Andreas">
+      <h3>GTA San Andreas</h3>
+      <a href="https://www.downloadcomputergames.net/p/download-game.html#https://up.downloadcomputergames.net/2020/09/download-gta-san-andreas/GTA-San-Andreas.zip" target="_blank">Download / Play</a>
+    </div>
+    
+    <div class="game">
+      <img src="images/mooh.jpg" alt="Medal Of Honor">
+      <h3>Medal Of Honor</h3>
+      <a href="https://www.downloadcomputergames.net/p/download-game.html#https://up.downloadcomputergames.net/2022/01/medal-of-honor-warfighter/Medal.of.Honor.Warfighter.zip" target="_blank">Download / Play</a>
+    </div>
+    
+    <div class="game">
+      <img src="images/pubgpc.jpg" alt="PUBG Mobile for PC">
+      <h3>PUBG Mobile for PC</h3>
+      <a href="https://www.downloadcomputergames.net/p/download-game.html#https://up.downloadcomputergames.net/2020/11/pubg-mobile-for-pc/GLP_installer_900223596_com.tencent.ig.exe" target="_blank">Download / Play</a>
+    </div>
+
+  </div>
+</section>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=1200");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.5);
+}
+
+header, footer {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(0,0,0,0.7);
+}
+
+header h1 {
+  font-size: 3em;
+  margin: 0;
+}
+
+main {
+  padding: 40px;
+}
+
+.game-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.game {
+  background: rgba(0,0,0,0.6);
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+  border-radius: 15px;
+  transition: transform 0.3s;
+}
+
+.game:hover {
+  transform: scale(1.05);
+}
+
+.game img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.game h3 {
+  margin: 10px 0;
+}
+
+.game a {
+  text-decoration: none;
+  color: #ffd700;
+  font-weight: bold;
+}
+
+#donate {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#donate a {
+  text-decoration: none;
+  padding: 15px 30px;
+  background-color: #ff4500;
+  color: white;
+  border-radius: 10px;
+  font-size: 1.2em;
+  transition: background 0.3s;
+}
+
+#donate a:hover {
+  background-color: #ff6347;
+}
